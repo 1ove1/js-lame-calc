@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Average JS CALC</title>
+    <link rel="stylesheet" href="calc_style.css">
+    <!--    <link rel="script" href="calc_script.js">-->
+</head>
+<body>
+  <main>
+      <form action="#" >
+        <div class="main_div">
+            <div class="view_div">
+                <label for="input_block"></label>
+                <input type="text" name="input_block" id="input_block" value="">
+                <label for="output_block"></label>
+                <input type="text" name="output_block" id="output_block" value="">
+            </div>
+            <div class="input_block">
+                <div class="numbers">
+                    <input type="button" id="7" value="7" onclick="pressButton(7)">
+                    <input type="button" id="8" value="8" onclick="pressButton(8)">
+                    <input type="button" id="9" value="9" onclick="pressButton(9)">
+                    <input type="button" id="4" value="4" onclick="pressButton(4)">
+                    <input type="button" id="5" value="5" onclick="pressButton(5)">
+                    <input type="button" id="6" value="6" onclick="pressButton(6)">
+                    <input type="button" id="1" value="1" onclick="pressButton(1)">
+                    <input type="button" id="2" value="2" onclick="pressButton(2)">
+                    <input type="button" id="3" value="3" onclick="pressButton(3)">
+                    <input type="button" id="0" value="0" onclick="pressButton(0)">
+                    <input type="button" id="," value="," onclick="pressButton(',')">
+                    <input type="button" id="=" value="=" onclick="calculate()">
+                </div>
+                <div class="operations">
+                    <input type="button" id="CLR" value="⇷" onclick="pressButton('⇷')">
+                    <input type="button" id="/" value="/" onclick="pressButton('/')">
+                    <input type="button" id="*" value="*" onclick="pressButton('*')">
+                    <input type="button" id="-" value="-" onclick="pressButton('-')">
+                    <input type="button" id="+" value="+" onclick="pressButton('+')">
+                </div>
+            </div>
+        </div>
+      </form>
+  </main>
+  <script src="calc_script.js"></script>
+</body>
+</html>
