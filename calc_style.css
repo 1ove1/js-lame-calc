@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'VT323';
+    src: url('fonts/VT323-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    /*...*/
+}
+body{
+    background-image: url("img/pMAiU.jpg");
+    background-size: 50%;
+}
+.main_div{
+    background-color: white;
+    flex: border-box;
+    width: 225px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    border: 5px inset gray;
+    border-radius: 25px;
+    box-shadow: 15px 15px 10px black;
+}
+.view_div {
+    box-sizing: border-box;
+    width: 100%;
+    height: 20%;
+    background-image: url("img/panel.png");
+    background-position: center;
+    background-size: 100% 100%;
+}
+.view_div input{
+    float: left;
+    box-sizing: border-box;
+    border: unset;
+    padding: unset;
+    margin: 0 1.6em;
+    width: 80%;
+    height: 19%;
+    background: none;
+    font-family: 'VT323', monospace;
+    text-align: right;
+    letter-spacing: 0.268em;
+    font-size: 13pt;
+}
+
+.view_div #input_block{
+    margin-top: 0.95em
+}
+
+.view_div #output_block{
+    margin-top: 0.2em
+}
+
+.input_block {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+    box-shadow: #CD214F;
+    padding: 0 5%;
+}
+
+.numbers{
+    float: left;
+    box-sizing: border-box;
+    width: 75%;
+    height: 100%;
+}
+
+.operations {
+    float: left;
+    box-sizing: border-box;
+    width: 25%;
+    height: 100%;
+    border-left: 1px solid gray;
+}
+
+.numbers input{
+    float: left;
+    width: 33%;
+    height: 25%;
+    font-size: 18pt;
+    font-family: 'Monospaced', monospace;
+}
+.operations input{
+    float: left;
+    width: 100%;
+    height: 20%;
+    font-size: 18pt;
+    font-family: 'Monospaced', monospace;
+}
+
+.numbers input:focus{
+    outline: none;
+    box-shadow: none;
+}
